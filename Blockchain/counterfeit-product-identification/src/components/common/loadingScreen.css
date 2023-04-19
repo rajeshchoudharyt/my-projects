@@ -1,0 +1,28 @@
+.loading-screen .loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+}
+
+.loading-screen .loader-container .spinner {
+    width: 3rem;
+    height: 3rem;
+    border: 0.4rem solid;
+    border-color: #f3d4b7 transparent;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

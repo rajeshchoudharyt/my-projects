@@ -1,0 +1,295 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_name",
+                "type": "string"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            },
+            {
+                "internalType": "string",
+                "name": "_password",
+                "type": "string"
+            }
+        ],
+        "name": "addCustomer",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_name",
+                "type": "string"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            },
+            {
+                "internalType": "string",
+                "name": "_password",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_mfdId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_date",
+                "type": "string"
+            }
+        ],
+        "name": "addManufacturer",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_name",
+                "type": "string"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            },
+            {
+                "internalType": "string",
+                "name": "_password",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_mfdId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_sellerId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_date",
+                "type": "string"
+            }
+        ],
+        "name": "addSeller",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "message",
+                "type": "string"
+            }
+        ],
+        "name": "AddUserEvent",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "authenticateCustomer",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "authenticateManufacturer",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "authenticateSeller",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_mfdId",
+                "type": "string"
+            }
+        ],
+        "name": "getAllSeller",
+        "outputs": [
+            {
+                "internalType": "string[][]",
+                "name": "",
+                "type": "string[][]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "getManufacturer",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "getSeller",
+        "outputs": [
+            {
+                "internalType": "string[]",
+                "name": "",
+                "type": "string[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "validateCustomer",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_mfdId",
+                "type": "string"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "validateManufacturer",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_sellerId",
+                "type": "string"
+            },
+            {
+                "internalType": "bytes32",
+                "name": "_username",
+                "type": "bytes32"
+            }
+        ],
+        "name": "validateSeller",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
