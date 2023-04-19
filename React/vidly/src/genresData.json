@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "5b21ca3eeb7f6fbccd471f23",
+        "name": "Action"
+    },
+    {
+        "_id": "5b21ca3eeb7f6fbccd471f1f",
+        "name": "Comedy"
+    },
+    {
+        "_id": "5b21ca3eeb7f6fbccd471f27",
+        "name": "Romance"
+    },
+    {
+        "_id": "5b21ca3eeb7f6fbccd471f2b",
+        "name": "Thriller"
+    }
+]
