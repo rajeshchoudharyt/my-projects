@@ -1,3 +1,5 @@
+A Todo app which is integrated with Microsoft Authentication Library and Microsoft Todo using Microsoft Graph API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
