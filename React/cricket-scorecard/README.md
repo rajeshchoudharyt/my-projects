@@ -1,3 +1,5 @@
+A simple cricket scorecard app to display the results of a cricket match with beautiful Graphs and Charts.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
