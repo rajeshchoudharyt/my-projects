@@ -1,3 +1,5 @@
+#### A Blockchain based Decentralized Application (DApp) to identify Counterfeit Product by providing transparency to the supply chain transaction
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
